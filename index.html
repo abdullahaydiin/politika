@@ -11,22 +11,15 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
-            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            background-color: #001f3f; /* Lacivert arka plan */
             font-family: 'Arial', sans-serif;
             color: white;
             text-align: center;
         }
 
-        #container {
-            position: relative;
-        }
-
         h1 {
-            position: absolute;
-            top: 10px;
-            left: 50%;
-            transform: translateX(-50%);
             font-size: 2rem;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
@@ -38,6 +31,7 @@
             position: relative;
             transform: rotate(-45deg);
             animation: grow 3s infinite ease-in-out;
+            margin-top: 20px;
         }
 
         #heart::before,
@@ -71,9 +65,7 @@
     </style>
 </head>
 <body>
-    <div id="container">
-        <h1>Sana olan sevgim sonsuza kadar büyüyecek</h1>
-        <div id="heart"></div>
-    </div>
+    <h1>Sana olan sevgim sonsuza kadar büyüyecek</h1>
+    <div id="heart"></div>
 </body>
 </html>

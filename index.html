@@ -3,69 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seni Seviyorum</title>
+    <title>Gizlilik Politikası</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
-            background-color: #001f3f; /* Lacivert arka plan */
-            font-family: 'Arial', sans-serif;
-            color: white;
-            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+            color: #333;
         }
-
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
         h1 {
-            font-size: 2rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
-        #heart {
-            width: 100px;
-            height: 90px;
-            background-color: red;
-            position: relative;
-            transform: rotate(-45deg);
-            animation: grow 3s infinite ease-in-out;
-            margin-top: 20px;
-        }
-
-        #heart::before,
-        #heart::after {
-            content: "";
-            width: 100px;
-            height: 100px;
-            background-color: red;
-            border-radius: 50%;
-            position: absolute;
-        }
-
-        #heart::before {
-            top: -50px;
-            left: 0;
-        }
-
-        #heart::after {
-            top: 0;
-            left: 50px;
-        }
-
-        @keyframes grow {
-            0%, 100% {
-                transform: scale(1) rotate(-45deg);
-            }
-            50% {
-                transform: scale(1.2) rotate(-45deg);
-            }
+            color: #5e2ca5;
         }
     </style>
 </head>
 <body>
-    <h1>Sana olan sevgim sonsuza kadar büyüyecek</h1>
-    <div id="heart"></div>
+    <div class="container">
+        <h1>Gizlilik Politikası</h1>
+        <p>Bu gizlilik politikası, uygulamamızın kullanıcılarının gizliliğini korumak amacıyla hazırlanmıştır. Uygulamamızı kullanarak, bu politikada belirtilen şartları kabul etmiş sayılırsınız.</p>
+
+        <h2>Toplanan Bilgiler</h2>
+        <p>Uygulamamız kullanıcıdan doğrudan bilgi talep etmez. Ancak bazı durumlarda (örneğin, hesap oluşturma veya destek talebi) kullanıcıdan ad, e-posta adresi gibi bilgiler talep edilebilir.</p>
+
+        <h2>Bilgilerin Kullanımı</h2>
+        <p>Toplanan bilgiler yalnızca uygulama deneyiminizi geliştirmek, hizmet kalitemizi artırmak ve yasal yükümlülüklerimizi yerine getirmek amacıyla kullanılır. Bilgiler üçüncü taraflarla paylaşılmaz.</p>
+
+        <h2>Çerezler ve Takip Teknolojileri</h2>
+        <p>Uygulamamız çerez veya benzeri takip teknolojilerini kullanabilir. Bu teknolojiler, uygulamanın performansını artırmak ve kullanıcı deneyimini iyileştirmek amacıyla kullanılır.</p>
+
+        <h2>Üçüncü Taraf Hizmetleri</h2>
+        <p>Uygulama, Google Play Hizmetleri gibi üçüncü taraf hizmetlerini kullanabilir. Bu hizmetlerin kendi gizlilik politikaları geçerlidir ve bizim kontrolümüz dışındadır.</p>
+
+        <h2>Veri Güvenliği</h2>
+        <p>Kullanıcı bilgilerinin güvenliğini sağlamak için uygun güvenlik önlemleri alınmaktadır. Ancak, internet üzerinden yapılan veri iletiminin tamamen güvenli olduğunu garanti edemeyiz.</p>
+
+        <h2>Çocukların Gizliliği</h2>
+        <p>Uygulamamız 13 yaş altındaki çocuklara yönelik değildir. Eğer bir çocuğun bilgilerini izinsiz olarak topladığımızı fark edersek, bu bilgileri derhal sileriz.</p>
+
+        <h2>Politika Güncellemeleri</h2>
+        <p>Bu gizlilik politikası zaman zaman güncellenebilir. Güncellemeler bu sayfada yayımlanır. Kullanıcıların düzenli olarak bu sayfayı kontrol etmeleri önerilir.</p>
+
+        <h2>İletişim</h2>
+        <p>Gizlilik politikamızla ilgili sorularınız için bizimle şu e-posta adresinden iletişime geçebilirsiniz: <strong>destek@ornekuygulama.com</strong></p>
+    </div>
 </body>
 </html>
